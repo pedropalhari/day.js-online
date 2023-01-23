@@ -4,7 +4,7 @@ import Editor from "@monaco-editor/react";
 import dayjs from "dayjs";
 import { useEffect, useState } from "react";
 import OutputComponent from "../components/OutputComponent";
-import { DAYJS_TYPES } from "./dayjs.types";
+import { DAYJS_TYPES } from "../utils/dayjs.types";
 import { FaPlay } from "react-icons/fa";
 
 if (typeof window !== "undefined") window.dayjs = dayjs;
